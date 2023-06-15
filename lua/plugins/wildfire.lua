@@ -1,0 +1,5 @@
+return {
+  {
+    "gcmt/wildfire.vim",
+  },
+}
