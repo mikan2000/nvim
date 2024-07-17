@@ -26,6 +26,7 @@ vim.keymap.set("n", "<C-k>", "<C-w>k", opt)
 vim.keymap.set("n", "<Leader>v", "<C-w>v", opt)
 vim.keymap.set("n", "<Leader>s", "<C-w>s", opt)
 vim.keymap.set("n", "<leader><leader>", ":noh<CR>", opt)
+vim.keymap.set("n", "<leader>t", ":NvimTreeOpen<CR>", opt)
 
 -- https://www.reddit.com/r/vim/comments/2k4cbr/problem_with_gj_and_gk/
 vim.keymap.set("n", "j", [[v:count ? 'j' : 'gj']], { noremap = true, expr = true })
@@ -80,6 +81,16 @@ require("lazy").setup({
 		"lewis6991/gitsigns.nvim",
 		config = function()
 			require("gitsigns").setup()
+		end,
+	},
+	{
+		event = "VeryLazy",
+		"nvim-tree/nvim-tree.lua",
+		dependencies = {
+   			"nvim-tree/nvim-web-devicons",
+		},
+		config = function()
+			require("nvim-tree").setup {}
 		end,
 	},
 })

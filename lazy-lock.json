@@ -3,6 +3,8 @@
   "lazy.nvim": { "branch": "main", "commit": "933f0b596c7372daf534373ae9a11e98744b8636" },
   "mason.nvim": { "branch": "main", "commit": "0950b15060067f752fde13a779a994f59516ce3d" },
   "nvim-base16": { "branch": "master", "commit": "6ac181b5733518040a33017dde654059cd771b7c" },
+  "nvim-tree.lua": { "branch": "master", "commit": "12a9a995a455d2c2466e47140663275365a5d2fc" },
+  "nvim-web-devicons": { "branch": "master", "commit": "c0cfc1738361b5da1cd0a962dd6f774cc444f856" },
   "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
   "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" }
 }
