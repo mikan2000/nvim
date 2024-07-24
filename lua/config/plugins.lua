@@ -23,6 +23,7 @@ require("lazy").setup({
 	require("config.plugins.mason"),
 	require("config.plugins.cmp"),
 	require("config.plugins.git"),
+	require("config.plugins.vim-surround")
 })
 
 vim.cmd.colorscheme("base16-tender")
